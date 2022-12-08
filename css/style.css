@@ -10,6 +10,7 @@
 
 body {
   font-family: "Open Sans", sans-serif;
+  background-color: #f5f5f5;
 }
 
 .contenedor {
@@ -105,7 +106,7 @@ header {
 
 .subtitulo {
   text-align: center;
-  font-weight: 300;
+  font-weight: 500;
   color: #9f8ad0;
   margin-bottom: 40px;
   font-size: 40px;
@@ -146,6 +147,34 @@ header {
   font-weight: 700;
   line-height: 30px;
   margin-right: 5px;
+}
+
+.estadisticas{
+  display: block;
+  padding: 30px;
+}
+
+.estadisticas h3{
+  padding-bottom: 20px;
+  color: #9f8ad0;;
+  font-size: 20px;
+}
+.estadisticas li{
+  font-size: 15px;
+}
+
+.estadisticas2{
+  padding-left: 104px;
+}
+
+.estadisticas2 h3{
+  padding-bottom: 20px;
+  color: #9f8ad0;;
+  font-size: 20px;
+}
+
+.estadisticas2 li{
+  font-size: 15px;
 }
 
 .gallery {
@@ -216,7 +245,7 @@ header {
   background: linear-gradient(135deg, #6978a8 0%, #5a377e 100%);
   border-radius: 20px 20px;
   box-shadow: 3px 3px 15px;
-  width: 30%;
+  width: 30%; 
   text-align: center;
   margin-bottom: 20px;
 }
@@ -242,21 +271,40 @@ header {
   display: flex;
 }
 
+.form-afuera {
+  background: linear-gradient(135deg, #aab4d6 0%, #30275f 100%);
+  display: flex;
+  border-radius: 20px;
+  width: 1000px;
+  height: 700px;
+  margin: auto;
+  margin-bottom: 70px;
+}
+
 .contacto-form {
   display: flex;
   width: 100vw;
   height: 100vh;
 }
+.contacto-form p {
+  font-size: 14px;
+}
+
 .contacto-form form {
-  width: 800px;
+  width: 400px;
   height: 600px;
   margin: auto;
   margin-top: 10px;
   background: linear-gradient(135deg, #aab4d6 0%, #5a377e 100%);
   padding: 20px 25px;
   box-sizing: border-box;
-  border-radius: 10px;
+  border-radius: 20px;
 }
+.contacto-form ::placeholder {
+  color: #f5f5f5;
+  font-weight: 600;
+}
+
 .contacto-form form h2 {
   color: #fff;
   text-align: center;
@@ -326,7 +374,7 @@ footer {
   font-size: 40px;
 }
 
-.brand img{
+.brand img {
   height: 30px;
   width: auto;
   margin: auto;
@@ -394,6 +442,10 @@ footer {
     margin-bottom: 30px;
   }
 
+  .estadisticas2{
+    padding-left: 63px;
+  }
+
   .agregar-imagen {
     width: 80%;
   }
@@ -404,6 +456,10 @@ footer {
 
   .cont-expert {
     width: 80%;
+  }
+
+  .form-afuera {
+    margin-bottom: 70px;
   }
 
   .footer-content {
@@ -448,6 +504,10 @@ footer {
     font-size: 30px;
   }
 
+  .estadisticas2{
+    padding-left: 56px;
+  }
+
   .agregar-imagen {
     width: 95%;
   }
@@ -456,8 +516,9 @@ footer {
     width: 95%;
   }
 
-  .contacto-form{
-    margin-bottom: 100px;
+  .form-afuera {
+    background: #f5f5f5;
+    width: auto;
   }
 
   .social-media {
